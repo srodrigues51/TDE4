@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mecânica SD</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <img src="images/logo.png" alt="Imagem Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#sobre">Sobre a Empresa</a></li>
+                <li class="nav-item"><a href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="about-section">
+            <h1>Sobre a Empresa</h1>
+            <p>Descrição da história, missão, visão e valores.</p>
+            <img src="images/sobre.jpg" alt="Imagem da Oficina">
+        </section>
+        <section id="servicos" class="services-section">
+            <h1>Serviços Oferecidos</h1>
+            <div class="service">
+                <img src="images/freio.jpg" alt="Reparação de Freios">
+                <h3>Reparação de Freios</h3>
+            </div>
+            <div class="service">
+                <img src="images/suspensao.jpg" alt="Reparos de Suspensão">
+                <h3>Reparos de Suspensão</h3>
+            </div>
+        </section>
+        <section id="contato" class="contact-section">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Email: contato@oficinaSD.com</p>
+        <p >&copy; 2024 Todos os direitos reservados - URI ERECHIM </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
